@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIRA Magazine</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.1.3/css/bootstrap.min.css} "/>
+    <script th:src="@{/webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js} "></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      .spacing {
+        height: 80px;
+      }
+
+      .img_block {
+
+        width: 100%;
+        height: 606px;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+
+    <link href="/carousel.css" rel="stylesheet">
+    <link href="/cawas.css" rel="stylesheet">
+</head>
+<body>
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">CAWAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mira">MIRA Magazine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="history">Our History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact Us</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search MIRA</button>
+            </form>
+        </div>
+    </div>
+</nav>
+    <div class="hero-image2">
+        <div class="hero-text">
+            <h1>A Brief History of CAWAS</h1>
+            Recollections of our society by past members...
+        </div>
+    </div>
+
+    <div class="container">
+        <p></p>
+        <H2>Our History...</H2>
+
+
+        <p></p>
+
+        Coventry AS was founded in 1939, as the Coventry Technical College Astronomical and Meteorological Society. 
+        In 1959, small breakaway group founded the Coventry Astronomical Telescope making society, which later became 
+        the Warwickshire AS. The two Societies merged to become the CaWAS in 1974. The society had a long association 
+        with the technical college, on top of which we used to have an observatory.However, in 1992 the college could no 
+        longer allow us to use the observatory, and so we moved to our current location in the south of Coventry.
+
+        <p></p>
+        The following was taken from the previous website and goes a bit deeper into our history.
+
+        <p></p>
+        <article>
+            <h4>
+            A Brief History Of The Coventry Astronomical Society by E.F. Nicholls.
+        </h4>
+        <p></p>
+
+        The Society was originally formed late in 1939 as the "College Astronomical and Meteorological Society" mainly through
+        the efforts of Mr. J.D.F. Williams and Mr. R.N. Helsdon who at that time were full time member of the college staff. 
+        At the time the intention was to organise a meteorological section which would be able to supply returns to the Air Ministry. 
+        Mr. J.D. Williams is now Vice-President of the Society. A well-known amateur of the time, the late Captain G.T. Smith-Clarke, 
+        encouraged the project from its first conception and observational nights were at that time held in his observatory at Gibbet 
+        Hill which was equipped with a Cooke 6 inch refractor.
+        <p></p>
+        This was, of course, a rather unfortunate time to start any society but viewing conditions in the blacked out city must have 
+        been marvellous compared to those prevailing today. From the outset membership of the society and lectures arranged by the 
+        society were open to the public and one of outstanding interest was that on Monday, February 19th 1940, when Mr. Bertrand Peek 
+        President of the British Astronomical Association and Director of the Jupiter Observing Section came to address the society.
+        His subject not unnaturally was "The Planet Jupiter".
+
+        <p></p>
+        At about this time Captain Smith-Clarke made a generous gift of his complete observatory and 6 inch refractor to the society
+        and this was later removed from Gibbet Hill and re-erected on the college roof. Due to war time conditions the society's
+        activities were suspended for the duration of the war in 1940, re-commencing in 1945.
+
+        <p></p>Another of our present Vice-Presidents, Mr.H.G. Miles eventually took over as Secretary and ran the society for many years.
+        He is now Director of the Artificial Satellite Section, Reporting of Sporadic Celestial Phenomena Section, and Secretary of
+        the Education Committee of the BAA.  He was succeeded by Mr.Chater of the college staff and I took over about 6 years ago when
+        Mr.Chater went to Germany.
+
+        <p></p>During the last few years membership has steadily increased and I am hoping that the new combined society will help to
+        encourage this.
+        </article>
+
+        <p></p>
+        <h4>
+            A verbatim report on a paper given on July 25th, 1967. By J.H. Osbourne.
+        </h4>
+
+        <p>
+            We gratefully acknowledge Mr.J.H. Osbourne for making this article available. The article was obtained by Alan Hancocks for this first issue of "Stellar".
+        </p>
+
+        <p></p>
+        Around mid-summer 1959, a member of the Coventry Astronomical Society, Mr.M.J.O. Green, having been requested to resign
+        from a breakaway group. The CAS was attached to and closely allied to the Coventry Technical College in the Butts where a
+        refractor was and still is available in a small observatory on the roof.  Its use was restricted in the main to college
+        opening hours and perhaps because of this and the infrequency of meetings the CAS was not as widely known as it might have been.
+
+        <p></p>
+        Mr. Green advertised in the local press for persons to contact him, who had any interest in astronomy, in particular the
+        building of telescopes/ In the main his avert attracted a small number of enthusiasts who were either lone workers or
+        planning to become so and who welcomed their chance to meet others of a like mind.  It is clear, as will be seen from later
+        event saw that these persons neither considered themselves as a breakaway group nor suspected Mr. Green's earlier connections
+        with the CAS. It may be that one ot two founder members were also members of the CAS and that is certainly true today, but the
+        formation of what was in effect an Astronomical Workshop, for filled a need, in no way conflicting with the function of CAS,
+        and it cannot be disputed that Mr. Green was extremely knowledgeable on the subject of astronomy, optics and design.
+
+        <p></p>
+        The is no record of any preliminary gatherings of persons who replied to this first advert, but is certain that some were held,
+        probably of an informal nature is which a name for the Society and Chairman was decided upon, as also were the aims of the
+        Society. These latter are clearly inscribed on the fly leaf of the Minute Book as being "Construction of Astronomical Telescopes
+        Study of Astronomy in all its aspects"
+
+        <p></p>
+        The title given was "Coventry Astro-Telescope Society" and the Chairman was A.R.L. (Tony) Parsons, who later proved to be a
+        tower of strength to the society and whose tragic death in a accident in April 1965 saddened us all.
+
+        <p></p>
+        Under his chairmanship, the first recorded meeting was held at 50 Northumberland Road, coventry at 8p.m. on Tuesday,
+        November 3rd, 1959. A formal agenda had been drawn up comprising:
+
+        1. Election of Officers
+        2. Advertisement for Workshop
+        3. Membership Fees
+        4. A.O.B. (any other business)
+
+        <p></p>
+        Mr. Green was elected Secretary, a treasurer and two Committee members were appointed. Two of these are today still most active
+        members it is a pleasure to record that Alan Hancocks and Bill Gray have for so long, unstintingly served our Society.
+
+        <p></p>
+        It was agreed at that meeting to rent a workshop at 27 Ford Street, Coventry. The rent (£2.10.0 per week) was heavy and must
+        have been inclusive of rates for reference is made in a later minute to a "refund of rates" when the tenancy was terminated.
+        On account of the rent it was decided upon a weekly subscription of 4/0- (four shillings) and although this was high, it is
+        interesting to note that it was carried 10 for, 1 against and from that we can deduce that including the Chairman there were
+        12 founder members present. Unfortunately only the officers are named and of those, Alan Hancocks, mentioned above, is still
+        serving on the committee. However, there may be others from amongst the anonymous 7 and we should be glad to learn of any member
+        who was present at that first meeting.
+
+        <p></p>
+        The first full committee meeting was on Friday 20th November,1959. It commenced at 9p.m. and went on until 11p.m. It was
+        evidently a tremendous meeting and many of the resolutions passed have still today a most familiar ring. Apart from decisions
+        to purchase a stock of disc, blackboards, Epidiascope etc., it ws decided to approach the schools to form a Junior section under
+        the tutelage of Tony Parsons, to arrange a Christmas dinner - a happy idea which has become an annual feature ever since. It was
+        also decided to advertise for members once again, to affiliate with the BAA (British Astronomical Association) and above all to
+        approach Councillor Mann to discuss the feasibility of mounting a large telescope in the environs of Coventry.
+
+        <p></p>Thus, at our very first meeting following the inaugural of the original committee our footsteps were set upon a path that today
+        is leading us to Coombe Abbey. How daunted would that committee have felt, I wonder, if they had realised then that eight years
+        later we should still only be on the threshold of this goal.. It says much for their ideals and the persistence of founder
+        members that this torch has been carried for so long and passed on, undiminished into the hands of the present committee
+        through the many changes and vicissitudes that have beset the Society since those days.
+
+        <p></p>The Society continued to meet at the rear of 27 Ford Street, and as a result of the advertising a number of new members were
+        enrolled, of which the writer was one. These premises, it was found left much to be desired for apart from the expense, they
+        lacked both hearing facilities and water supply and the nearest toilets were those in Pool Meadow bus station. However,
+        enthusiasm was tremendous and I have many happy memories of lively debates, a growing warmth of friendship, (owing nothing to
+        the heavy overcoats, gloves and mufflers we usually were wearing) and to the occasional altercation that arose as opinions
+        differed. These meetings were most enjoyable gatherings of lively minds, as indeed they still are today. It was then, too,
+        that the tradition commenced of continuing discussions over a nightcap pint on the way home and since it was rarely that we
+        hurriedly burst into the local hostelry before five to ten an unofficial roster was left as to whose turn it was to pay "this
+        week". Many decisions were reached on the pavement after turning out time and still are and my wife, at least, could not
+        understand why I got home after 11p.m. when closing time was 10p.m.  I fear that later years, when licensing hours were
+        extended to 10.30p.m. brought no improvement for then and now we burst in at 10.25p.m. and pavement discussions continue
+        unabated.
+
+        <p></p>Despite all the foregoing the Society had been in existence, albeit a very active existence for only nine weeks when it was
+        decided to call a first AGM of members.  This was held at the Chairman's home, 186 Rotherham Road, Coventry on Sunday morning
+        10th January 1960 at 11a.m. I remember this meeting very well. It was heavily attended and we were packed in, sitting on chairs,
+        arms of chairs, stools, the floor and each other. the Chairman was confirmed in the office and a larger committee formed,
+        bringing the number from 5 to 7. It was in the capacity of Assistant Treasurer that our present Chairman, Dave Spearman, was
+        first mentioned in the records, along with Bill Gray, Committee member and myself, who for some dubious reason ws elected
+        Vice-Chairman. Alan Hancocks was also on the new committee.
+
+        <p></p>At this meeting, resolutions were passed that still form the foundation upon which the Society is built and ranged from the
+        official resolution to construct an Observatory to the formation of a set of rules. Apart from full membership, still at 4/-
+        per week other classes of membership were created, catering for juniors, students, associates and honorary member with
+        appropriate scales of subscriptions. Mr.J.Hayes was elected the first honorary member and it was also proposed to offer such
+        membership to Dr. Cork, Science Master at King Henry VIII School with whom some correspondence had been held.
+
+        <p></p>
+        It was also agreed to contact the Leicester Astronomical Society, their secretary Mr. Cliff Shuttlewood being know to Mr. Green.
+        This contact lead to a number of interesting visits in both directions and Mr. Shuttlewood kindly agreed to lecture to us on a
+        number of occasions.
+
+        <p></p>
+        In February 1960 a move was made to a room hired in Vine Street School and the workshop vacated on the grounds of inconvenience
+        and expense. Mr. & Mrs. Green kindly made workshop facilities available at their home in Northumberland Road and this continued
+        for a limited period and for which conveniences the society voted a nominal rent of 2/- per week.
+
+        <p></p>
+        The move to Vine Street not only enabled the subscription to be halved to 2/- per week but provided the venue and opportunity
+        for most interesting programme of lectures given both by members and visiting speakers.
+
+        <p></p>
+        It was at this juncture that concern was first aroused over arrears of subscriptions despite the reduction in fees and it was
+        becoming obvious that defaulting members were melting away. This problem was a recurring one and led in due course to the policy
+        of annual subscriptions we employ today.
+
+        <p></p>
+        A librarian was appointed for the first time.
+
+        <p></p>
+        In March 1960 it was decided to publish a broadsheet, Newsletter or something of a similar nature and it was myself who
+        volunteered to produce it. From the brief discussion, of which there is no mention in the minutes, "Cosmos" was born and has
+        continued in monthly publication ever since. The No.1 of the first edition has a dateline April 1960, our latest publication
+        was No.9 of the eighth edition, June 1967 i.e. 87 issues have been printed.
+
+        <p></p>
+        No.1 carried an editorial, Night Sky Chairman's Chat, news items, programme etceteras very much as it is today. It consisted of
+        1 foolscap sheet, printed on both sides and introduced to an unsuspecting world that zany female "Stella" given to asking
+        awfully silly questions, usually punning, on matters astronomical.
+
+        <p></p>
+        Described in this first issue as Lens girl friend and quite an eyepiece, she asked whether Len's behaviour on the common the
+        other night was the thin end of a 'Hearsall' wedge ? The punning play on the word Lens and Hearsall Common for Herscell set a
+        deplorable and shameless pattern that she followed ever since. For upwards of five years she appeared infallibly in every issue
+        but for lack of inspiration her appearances these days are a little less frequent. Nevertheless, she still puts a word in now
+        and again and we hope will continue to do so for years to come.
+        <p></p>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 TGAstro. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</body>
+</html>

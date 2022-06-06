@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coventry and Warwickshire Astronomical Society</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.1.3/css/bootstrap.min.css} "/>
+    <script th:src="@{/webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js} "></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .image-block {
+        width: 100%,
+        height: 80px
+      }
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="/carousel.css" rel="stylesheet">
+    <link href="/cawas.css" rel="stylesheet">
+</head>
+<body>
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">CAWAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mira">MIRA Magazine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mira">Members Area</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history">Our History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Membership Details</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Site Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="hero-image1">
+    <div class="hero-text1">
+        <h2>Coventry and Warwickshire Astronomical Society</h2>
+    </div>
+</div>
+
+<main>
+    <div class="spacing"></div>
+
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#AAA"/><text x="50%" y="50%" fill="#777" dy=".3em">Meetings</text></svg>
+
+                <h2>Meetings</h2>
+                <p>Click here for information about times and locations of our monthly meetings and observing sessions</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#AAA"/><text x="50%" y="50%" fill="#777" dy=".3em">MIRA Magazine</text></svg>
+
+                <h2>MIRA Magazine</h2>
+                <p>Check out our periodical packed with loads of features on our favourite pastime.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#AAA"/><text x="50%" y="50%" fill="#777" dy=".3em">Join Us</text></svg>
+                <h2>Membership Details</h2>
+                <p>Find out more about membership. Our society welcomes beginners as well as seasoned amateurs and professionals!</p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="events">Next Events &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="mira">View Editions &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <p><a class="btn btn-secondary" href="contact">More Details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Sky Notes. </h2>
+                <p class="lead">Check out Mark's monthly Sky Notes for all the latest on what to see in the night sky.</p>
+            </div>
+            <div class="col-md-5">
+                <!--
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                -->
+                <image src="skynotes_img.jpg" width="500"  />
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Society Meetings </h2>
+                <p class="lead">Whether you are simply interested in looking up at the heavens or are an experienced amateur, you'll find a warm welcome at our regular meetings and observing sessions.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Members Gallery. </h2>
+                <p class="lead">Contributions from our members.</p>
+            </div>
+            <div class="col-md-5">
+                <image src="SoulNebula2.jpg" width="500"  />
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 TGAstro. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+</main>
+
+</body>
+</html>
