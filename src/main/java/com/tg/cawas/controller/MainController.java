@@ -99,5 +99,11 @@ public class MainController {
         return "contact";
     }
 
+    @GetMapping("/accessDenied")
+    public String accessdenied() {
+
+        return "accessdenied";
+    }
+
 
 }

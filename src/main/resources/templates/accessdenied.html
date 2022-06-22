@@ -43,7 +43,7 @@
                         <a class="nav-link" aria-current="page" href="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link events" href="events">Events</a>
+                        <a class="nav-link active" href="events">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="mira">MIRA Magazine</a>
@@ -52,11 +52,9 @@
                         <a class="nav-link" href="history">Our History</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact">Membership Details</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/members/home">Members Area</a>
-                    </li>
+
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -72,21 +70,8 @@
 <div class="spacing"></div>
 
 <main class="container">
-    <H2>Our Next Events</H2>
-    <div class="row g-5">
-        <div class="col-md-8">
-            <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                Earlsdon Methodist Church Hall, Earlsdon, Coventry
-            </h3>
+    <H2>ACCESS DENIED</H2>
 
-
-            <article class="blog-post" th:each="event: ${events}">
-                <h2 th:text="${event.meetingTitle}" />
-                <p th:text="${event.meetingDescription}" />
-
-            </article>
-        </div>
-    </div>
 
 
     <!-- FOOTER -->
